@@ -8,6 +8,8 @@ Estou desenvolvendo com a tecnologias:
 * CSS3
 * JavaScript
 
+As imagens e preços são mera ficção.
+
 ## 🚀 Acesso
 
 Você pode acessar o site publicado através do GitHub Pages neste link:
