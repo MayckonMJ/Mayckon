@@ -189,6 +189,42 @@
             margin: 0 10px;
         }
 
+
+
+
+
+
+        /* Estilo Básico do Botão */
+.botao-cta {
+    /* Aparência */
+    display: inline-block; /* Permite definir largura e altura */
+    padding: 15px 30px;
+    background-color: #007bff; /* Azul, cor primária */
+    color: white; /* Cor do texto */
+    text-decoration: none; /* Remove o sublinhado do link */
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 8px; /* Cantos arredondados */
+    border: none;
+    transition: background-color 0.3s ease; /* Animação suave para o hover */
+
+    /* Posicionamento no rodapé (se for o caso) */
+    /* Se você quer que ele fique fixo, mude para:
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    z-index: 1000;
+    */
+}
+
+/* Efeito ao passar o mouse (Hover) */
+.botao-cta:hover {
+    background-color: #0056b3; /* Cor mais escura no hover */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Sombra para dar profundidade */
+    cursor: pointer; /* Mãozinha ao passar o mouse */
+}
+        
+
     </style>
     </head>
 <body>
@@ -281,12 +317,18 @@
     </section>
 
     <footer>
-        <p>&copy; 2025 Barbershop. Todos os direitos reservados. | Design Preto & Laranja.</p>
+        <p>&copy; 2025 Barbearia Josair. Todos os direitos reservados. <br></p>
         <p>
             <a href="#">Instagram</a> |
             <a href="#">WhatsApp</a> |
             <a href="#">Localização</a>
         </p>
+        <br>
+        <a href="https://wa.me/5562995679219?text=Ol%C3%A1!%0AEstou%20querendo%20saber%20como%20funciona%20para%20criar%20meu%20site" class="botao-whatsapp" target="_blank">
+    !!!Criar meu Site!!!
+        </a>
+        
+        
     </footer>
 
     <script>
